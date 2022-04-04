@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { Alert, Button, Snackbar, TextField, Typography } from "@mui/material";
 import Login from "./Login";
+import Register from "./Register";
 
 function Main() {
 
@@ -8,9 +9,9 @@ function Main() {
   
   return (
     <main>
+      {/* <Typography color="text.main" variant="h2">Welcome!</Typography> */}
       <Login />
-      <Typography color="text.main" variant="h1">Laundry is now complete!! :D</Typography>
-      <Button >Helllo</Button>
+      <Register />
     </main>
   );
 }
