@@ -8,8 +8,9 @@ function Main() {
   
   return (
     <main>
+      <Typography color="text.main" variant="h1">Welcome</Typography>
+      <Typography color="text.main" variant="h3">To my Website!</Typography>
       <Login />
-      <Typography color="text.main" variant="h1">Laundry is now complete!! :D</Typography>
       <Button >Helllo</Button>
     </main>
   );
