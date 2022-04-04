@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import "./App.css";
-import { Alert, Button, Snackbar } from "@mui/material";
+import { Alert, Button, Snackbar, Typography } from "@mui/material";
 import ButtonAppBar from "./ButtonAppBar";
 import Main from "./Main";
 
@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       {/* <Button variant="contained">Hello</Button> */}
       <ButtonAppBar />
+      <Typography color="text.main" align="center" variant="h2">Please Log In or Register</Typography>
       <Main />
     </div>
   );
