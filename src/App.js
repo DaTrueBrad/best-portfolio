@@ -2,8 +2,9 @@ import { useState } from "react";
 
 import "./App.css";
 import { Alert, Button, Snackbar, Typography } from "@mui/material";
-import ButtonAppBar from "./ButtonAppBar";
-import Main from "./Main";
+import ButtonAppBar from "./components/ButtonAppBar";
+import About from "./components/About/About";
+import ContactMe from "./components/Contact/ContactMe";
 
 function App() {
 
@@ -11,8 +12,8 @@ function App() {
     <div className="App">
       {/* <Button variant="contained">Hello</Button> */}
       <ButtonAppBar />
-      <Typography color="text.main" align="center" variant="h2">Please Log In or Register</Typography>
-      <Main />
+      <ContactMe />
+      {/* <About /> */}
     </div>
   );
 }
