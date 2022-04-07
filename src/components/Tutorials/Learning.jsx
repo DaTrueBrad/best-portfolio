@@ -12,7 +12,7 @@ function Learning() {
 
   return (
     <section className="regular-page">
-      {/* <TabContext value={value}>
+      <TabContext value={value}>
         <TabList onChange={handleChange} aria-label="lab API tabs example">
           <Tab
             label="Javascript"
@@ -31,7 +31,7 @@ function Learning() {
           />
         </TabList>
         <VideoPage name={value} />
-      </TabContext> */}
+      </TabContext>
     </section>
   );
 }

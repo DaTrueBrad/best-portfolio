@@ -15,7 +15,7 @@ function App() {
       <ButtonAppBar />
       <Routes>
         <Route index element={<About />} />
-        <Route path="/contact" element={<ContactMe />} />
+        {/* <Route path="/contact" element={<ContactMe />} /> */}
         <Route path="/tutorials" element={<Tutorials />} />
       </Routes>
     </div>
