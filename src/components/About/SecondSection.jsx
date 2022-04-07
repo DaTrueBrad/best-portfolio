@@ -7,7 +7,7 @@ import {
 } from "@mui/material";
 import React from "react";
 import brady from "../../assets/Brady.jpg";
-import { images } from "../../assets/imagesList";
+// import { images } from "../../assets/imagesList";
 
 function SecondSection() {
   return (
@@ -28,7 +28,7 @@ function SecondSection() {
           </div>
           <div className="images-container">
           
-            {images.map((image, index) => {
+            {/* {images.map((image, index) => {
               return (
                 <div className="image-card" key={index}>
                   <img
@@ -38,7 +38,7 @@ function SecondSection() {
                   <Typography variant="h5" color="text.main">{image.lang}</Typography>
                 </div>
               );
-            })}
+            })} */}
             </div>
         </div>
       </div>
