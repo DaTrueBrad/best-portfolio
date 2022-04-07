@@ -93,6 +93,18 @@ section {
 	padding: 30px;
 	box-sizing: border-box;
 	box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+	justify-content: space-between;
+	gap: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#center {
+	/* flex-direction: column; */
+	align-items: center;
 }
 
 .brady-img {
@@ -142,4 +154,28 @@ section {
 	/* height:	50%; */
 	transform: rotate(-10deg);
 	transition: all 0.2s ease-in-out;
+}
+
+form {
+	display: flex;
+	width: 30%;
+	height: fit-content;
+	flex-direction: column;
+	gap: 15px;
+	background-color: white;
+	padding: 15px;
+	border-radius: 4px;
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+}
+
+.regular-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 86px 30px 30px;
+	box-sizing: border-box;
+}
+
+.overflow {
+	overflow-y: scroll;
 }
