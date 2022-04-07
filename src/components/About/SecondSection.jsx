@@ -30,7 +30,7 @@ function SecondSection() {
           
             {images.map((image, index) => {
               return (
-                <div className="image-card">
+                <div className="image-card" key={index}>
                   <img
                     src={image.url}
                     loading="lazy"
